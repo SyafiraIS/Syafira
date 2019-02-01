@@ -1,0 +1,94 @@
+<style media="screen">
+body{
+  background: blue;
+
+}
+
+.menu{
+  margin: 0;
+  width: 100%;
+  position: sticky;
+
+}
+body{
+  background: #bec0c6;
+
+}
+nav{
+  width: 20%;
+  height: 400px;
+  background: #000;
+}
+ul.horizontal{
+  list-style-type: none;
+  padding: 10px;
+  margin: 20px;
+  overflow: hidden;
+  background-color: #000;
+ ;
+  text-align: center;
+  li
+}
+ul.horizontal li {
+text-align: center;
+display: inline-block;
+list-style: none;
+}
+ul.horizontal li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #1a000d;
+}
+ul.horizontal li a:hover{
+  background: #f3f3f3;
+  color: #444444;
+
+}
+
+div.content{
+  width: 100%;
+  height: 400px;
+  padding: 0;
+  float: left;
+  margin-top: 20px;
+}
+
+div.content .right{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+div.content .right h1{
+  text-align:right;
+  text-transform: uppercase; /* huruf kapital */
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 20;
+  border-right: 10px solid darkgrey;
+  padding-right: 10px;
+}
+
+div.content .right p{
+  text-align: right;
+  font-size: 20px;
+  color: grey;
+}
+
+div.content .left{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+div.content .left img{
+  width: 400px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 40px;
+  border: 10px solid darkblue;
+  border-radius: 15px; /* border melengkung */
+}
